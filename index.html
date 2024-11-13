@@ -11,74 +11,60 @@
 </head>
 <body>
     <main>
-        <!-- Passo 0 - Introdução -->
+        <!-- Passo 0 - Entrada para a Caverna Misteriosa -->
         <div class="passo ativo" id="passo-0">
-            <img src="img/cenario-passo0-entrada-caverna.png" alt="Entrada para a caverna misteriosa">
+            <img src="img/31032684927879215.jpeg" alt="Entrada para a caverna misteriosa">
             <p>Você encontra uma caverna escondida nas montanhas, com uma entrada misteriosa coberta por vegetação. Decidido a explorar, você adentra o local e logo percebe que está em um vasto sistema subterrâneo.</p>
             <button class="btn-proximo" data-proximo="1">Entrar pela passagem à esquerda</button>
             <button class="btn-proximo" data-proximo="2">Seguir pelo corredor à direita</button>
         </div>
 
-        <!-- Passo 1 - Passagem à Esquerda -->
+        <!-- Passo 1 - Passagem Escura à Esquerda -->
         <div class="passo" id="passo-1">
-            <img src="img/cenario-passo1-passage-left.png" alt="Passagem escura à esquerda">
+            <img src="img/8a17f03ddcca7a7fd494f1d6c705c834.png" alt="Passagem escura à esquerda">
             <p>Ao seguir pela passagem à esquerda, você chega a uma sala iluminada por cristais cintilantes. No centro, há uma porta de pedra com símbolos antigos. A porta parece trancar-se automaticamente.</p>
             <button class="btn-proximo" data-proximo="3">Tentar decifrar os símbolos</button>
             <button class="btn-proximo" data-proximo="4">Voltar e tentar o corredor à direita</button>
         </div>
 
-        <!-- Passo 2 - Corredor à Direita -->
+        <!-- Passo 2 - Corredor Misterioso à Direita -->
         <div class="passo" id="passo-2">
-            <img src="img/cenario-passo2-corridor-right.png" alt="Corredor misterioso à direita">
+            <img src="img/9a880a66664c030b40348cc5c07d6d9e.png" alt="Corredor misterioso à direita">
             <p>Você segue pelo corredor à direita e encontra um rio subterrâneo. A correnteza parece forte, mas há uma pequena canoa encostada à margem.</p>
             <button class="btn-proximo" data-proximo="5">Navegar pelo rio</button>
             <button class="btn-proximo" data-proximo="6">Voltar para a entrada da caverna</button>
         </div>
 
-        <!-- Passo 3 - Decifrar os símbolos -->
+        <!-- Passo 3 - Decifrar os Símbolos -->
         <div class="passo" id="passo-3">
-            <p>Você consegue decifrar os símbolos na porta de pedra e, com um som de pedra se movendo, a porta se abre lentamente. Atrás dela, há uma escada descendente.</p>
-            <button class="btn-proximo" data-proximo="7">Descer pelas escadas</button>
+            <p>Você consegue decifrar os símbolos e, com isso, a porta de pedra se abre, revelando um túnel iluminado por uma luz dourada.</p>
+            <button class="btn-proximo" data-proximo="7">Explorar o túnel</button>
         </div>
 
-        <!-- Passo 4 - Voltar ao corredor à direita -->
+        <!-- Passo 4 - Voltar para o Corredor à Direita -->
         <div class="passo" id="passo-4">
-            <p>Você decide voltar e tenta o corredor à direita, mas a entrada da caverna começa a se fechar. Não há mais tempo para explorar outros caminhos!</p>
+            <p>Você decide voltar para a entrada e seguir pelo corredor à direita.</p>
+            <button class="btn-proximo" data-proximo="2">Seguir pelo corredor à direita</button>
         </div>
 
-        <!-- Passo 5 - Navegar pelo rio -->
+        <!-- Passo 5 - Navegar pelo Rio -->
         <div class="passo" id="passo-5">
-            <p>Você navega pelo rio subterrâneo e, após uma longa viagem, chega a uma caverna repleta de estalactites. No fundo, você vê uma figura misteriosa, uma criatura guardiã do reino perdido.</p>
-            <button class="btn-proximo" data-proximo="8">Falar com a criatura</button>
-            <button class="btn-proximo" data-proximo="9">Tentar fugir e voltar pelo rio</button>
+            <p>Você decide navegar pelo rio. A correnteza é forte, mas você consegue atravessar até a outra margem onde encontra uma enorme porta de ferro.</p>
+            <button class="btn-proximo" data-proximo="7">Abrir a porta de ferro</button>
         </div>
 
-        <!-- Passo 6 - Voltar para a entrada da caverna -->
+        <!-- Passo 6 - Voltar para a Entrada da Caverna -->
         <div class="passo" id="passo-6">
-            <p>Você decide voltar à entrada da caverna, mas algo estranho acontece: a entrada desapareceu e você se vê preso em uma nova área, com a sensação de que foi desafiado.</p>
+            <p>Você decide voltar à entrada da caverna, sem explorar mais o rio subterrâneo.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar para a entrada da caverna</button>
         </div>
 
-        <!-- Passo 7 - Descer pelas escadas -->
+        <!-- Passo 7 - Explorar o Túnel ou a Porta de Ferro -->
         <div class="passo" id="passo-7">
-            <p>Você desce pelas escadas e entra em uma enorme câmara subterrânea cheia de artefatos e riquezas antigas. Porém, uma sensação estranha de perigo começa a se espalhar no ar.</p>
-            <button class="btn-proximo" data-proximo="10">Explorar a câmara</button>
-        </div>
-
-        <!-- Passo 8 - Falar com a criatura -->
-        <div class="passo" id="passo-8">
-            <p>Ao falar com a criatura, você aprende sobre o Reino Subterrâneo e recebe uma chave mágica que abre portas para novos mistérios e aventuras. Você agora pode explorar o reino como um verdadeiro guardião.</p>
-        </div>
-
-        <!-- Passo 9 - Fugir do rio -->
-        <div class="passo" id="passo-9">
-            <p>Ao tentar fugir pelo rio, você é pego por uma correnteza forte, mas consegue chegar a uma ilha no meio do rio. Você decide construir uma pequena cabana e esperar por resgate.</p>
-        </div>
-
-        <!-- Passo 10 - Explorar a câmara -->
-        <div class="passo" id="passo-10">
-            <p>Explorando a câmara, você encontra uma relíquia mágica que o transporta para um mundo alternativo, onde o Reino Subterrâneo ainda está intacto e cheio de vida.</p>
+            <p>Você explora o túnel iluminado ou abre a porta de ferro, ambos levando a novas descobertas em sua jornada no reino subterrâneo.</p>
         </div>
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>
